@@ -1,6 +1,6 @@
 {
     "name": "escarter/openapimomo",
-    "description": "Package for MTN Mobile Money Open API",
+    "description": "Laravel Package for MTN Mobile Money Open API wrapper",
     "type": "library",
     "license": "MIT",
     "authors": [{
