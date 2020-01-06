@@ -181,9 +181,9 @@ The Remittance section is similar, so will leave it out from the documentation.
 - Collection API user and Collection API key are different from disbursement and remittance. Each API has it's user and key
 - You can generate sandbox user for these APIs here [Sandbox user provisioning](https://momodeveloper.mtn.com/docs/services/sandbox-provisioning-api/operations/post-v1_0-apiuser) 
 - Here is a video showing you how you can provision a sandbox user and api key for each of the APIs how to generate sandbox users and api keys
--- [Generate a sandbox collection api user and key](https://youtu.be/sUbMLfel3AM)
--- [Generate a sandbox disbursement api user and key](https://youtu.be/1VYo45V6xaI)
--- [Generate a sandbox remittance api user and key](https://youtu.be/4B_Z6U29Lgo)
+  - [Generate a sandbox collection api user and key](https://youtu.be/sUbMLfel3AM)
+  - [Generate a sandbox disbursement api user and key](https://youtu.be/1VYo45V6xaI)
+  - [Generate a sandbox remittance api user and key](https://youtu.be/4B_Z6U29Lgo)
 
 #### How to use this package ?
 Below are sample codes showing how you can use this package.
