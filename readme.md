@@ -1,5 +1,5 @@
 ### OpenapiMoMo Documentation
-This is a laravel package for easily using the [MTN OpenAPI](https://momodeveloper.mtn.com) in your laravel project.
+This is a laravel package that helps you easily use the [MTN OpenAPI](https://momodeveloper.mtn.com) in your laravel project.
 This package simplifies the integration of this API by providing simple methods which you can use when calling the different endpoints provided by this API. 
 This package contains a configuration file that helps you easily manage your settings in a single location and permits you to swap between environments with a single value change.  
 
