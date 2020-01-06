@@ -1,0 +1,24 @@
+{
+    "name": "escarter/openapimomo",
+    "description": "Package for MTN Mobile Money Open API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Mbutuh Escarter Brieno",
+        "email": "brienom@gmail.com"
+    }],
+    "minimum-stability": "beta",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Escarter\\Openapimomo\\OpenapiMoMoServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Escarter\\Openapimomo\\": "src/"
+        }
+    }
+}
