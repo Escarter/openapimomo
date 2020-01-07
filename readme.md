@@ -45,7 +45,7 @@ Before you start using this package, you need to update the configuration file a
 This section contains configurations for the collection API. Ensure to replace the keys with their appropriate values
 
 ```php
-/*
+    /*
     |--------------------------------------------------------------------------
     |                        COLLECTION API SECTION
     |--------------------------------------------------------------------------
@@ -63,11 +63,11 @@ This section contains configurations for the collection API. Ensure to replace t
     |   sandbox_collection_api_key      - collection api key for sandbox 
     */
 
-    'collection_user_id' => 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx', 
-    'collection_api_key' => 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+    'collection_user_id' => 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx', //change this to your production collection user -- required
+    'collection_api_key' => 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', //change this to your production collection api key -- required
 
-    'sandbox_collection_user_id' => 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx',
-    'sandbox_collection_api_key'=> 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+    'sandbox_collection_user_id' => 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx', //change this to your sandbox collection user -- required
+    'sandbox_collection_api_key'=> 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', //change this to your sandbox collection api key -- required
 
     /*
     |--------------------------------------------------------------------------
@@ -81,10 +81,10 @@ This section contains configurations for the collection API. Ensure to replace t
     |   sandbox_collection_token_url        - collection token url for sandbox 
     */
 
-    'collection_ocp_apim_sub_key'=> 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+    'collection_ocp_apim_sub_key'=> 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', //change this to your collection Ocp-Apim-Subscription-Key -- required
     'collection_token_url'=> 'https://ericssonbasicapi1.azure-api.net/collection/token/',
     
-    'sandbox_collection_ocp_apim_sub_key'=>'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+    'sandbox_collection_ocp_apim_sub_key'=>'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', //change this to your collection  Ocp-Apim-Subscription-Key -- required 
     'sandbox_collection_token_url'=>'https://sandbox.momodeveloper.mtn.com/collection/token/',
 
     
@@ -101,10 +101,11 @@ This section contains configurations for the collection API. Ensure to replace t
     */
  
     'collection_transaction_url'=> 'https://ericssonbasicapi1.azure-api.net/collection/v1_0/requesttopay',
-    'collection_call_back_url'=>'',
+    'collection_call_back_url'=>'', // change this to your collection production call back url -- required
 
     'sandbox_collection_transaction_url' =>'https://sandbox.momodeveloper.mtn.com/collection/v1_0/requesttopay',
-    'sandbox_collection_call_back_url'=>'',
+    'sandbox_collection_call_back_url'=>'', // change this to your collection sandbox call back url 
+ 
 
 ```
 The other parts of the collection section stays untouched, only the section shown above should be updated. Same goes for the Disbursement and Remittance sections in the configuration file.
@@ -131,12 +132,11 @@ This section contains configurations for the disburement API. Ensure to replace 
     |   sandbox_disbursement_api_key      - disbursement api key for sandbox 
     */
 
-    'disbursement_user_id' => 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx', //change this to your disbursement user
-    'disbursement_api_key' => 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', //change this to your disbursement api key
+    'disbursement_user_id' => 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx', //change this to your disbursement user -- required
+    'disbursement_api_key' => 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', //change this to your disbursement api key -- required
 
-    'sandbox_disbursement_user_id' => 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx', //change this to your sandbox  disbursement user
-    'sandbox_disbursement_api_key'=> 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', //change this to your sandbox disbursement api key
-
+    'sandbox_disbursement_user_id' => 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx', //change this to your sandbox  disbursement user -- required
+    'sandbox_disbursement_api_key'=> 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', //change this to your sandbox disbursement api key -- required
 
     /*
     |--------------------------------------------------------------------------
@@ -150,10 +150,10 @@ This section contains configurations for the disburement API. Ensure to replace 
     |   sandbox_disbursement_token_url        - disbursement token url for sandbox 
     */
 
-    'disbursement_ocp_apim_sub_key'=> 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', //change this to your disbursement production  Ocp-Apim-Subscription-Key 
+    'disbursement_ocp_apim_sub_key'=> 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', //change this to your disbursement Ocp-Apim-Subscription-Key  -- required
     'disbursement_token_url'=> 'https://ericssonbasicapi1.azure-api.net/disbursement/token/',
 
-    'sandbox_disbursement_ocp_apim_sub_key'=> 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', //change this to your disbursement sandbox  Ocp-Apim-Subscription-Key 
+    'sandbox_disbursement_ocp_apim_sub_key'=> 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', //change this to your disbursement Ocp-Apim-Subscription-Key -- required
     'sandbox_disbursement_token_url'=> 'https://sandbox.momodeveloper.mtn.com/disbursement/token/',
 
     /*
@@ -169,10 +169,11 @@ This section contains configurations for the disburement API. Ensure to replace 
     */
 
     'disbursement_transaction_url'=> 'https://ericssonbasicapi1.azure-api.net/disbursement/v1_0/transfer',
-    'disbursement_call_back_url'=>'https://call_back_url.com',
+    'disbursement_call_back_url'=>'', // change this to your disbursement production call back url -- required
 
     'sandbox_disbursement_transaction_url' =>'https://sandbox.momodeveloper.mtn.com/disbursement/v1_0/transfer',
-    'sandbox_disbursement_call_back_url'=>'',
+    'sandbox_disbursement_call_back_url'=>'', // change this to your disbursement sandbox call back url 
+
 
 ```
 The Remittance section is similar, so will leave it out from the documentation.
