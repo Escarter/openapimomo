@@ -40,11 +40,11 @@ return [
     |   sandbox_collection_api_key      - collection api key for sandbox 
     */
 
-    'collection_user_id' => '338f36ef-1605-4c22-bf45-8f11e59ab4ba',
-    'collection_api_key' => '55c2c76c60a3445ba31125578d986cb8',
+    'collection_user_id' => 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx', //change this to your production collection user -- required
+    'collection_api_key' => 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', //change this to your production collection api key -- required
 
-    'sandbox_collection_user_id' => 'f0d016ad-542b-434b-9825-b9e4f05ed0f2',
-    'sandbox_collection_api_key'=> '66de01dde86d4abb97302e6b0b8de337',
+    'sandbox_collection_user_id' => 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx', //change this to your sandbox collection user -- required
+    'sandbox_collection_api_key'=> 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', //change this to your sandbox collection api key -- required
 
     /*
     |--------------------------------------------------------------------------
@@ -58,10 +58,10 @@ return [
     |   sandbox_collection_token_url        - collection token url for sandbox 
     */
 
-    'collection_ocp_apim_sub_key'=> 'bafb0c8076434928b36d83699e8fd2bd',
+    'collection_ocp_apim_sub_key'=> 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', //change this to your collection Ocp-Apim-Subscription-Key -- required
     'collection_token_url'=> 'https://ericssonbasicapi1.azure-api.net/collection/token/',
     
-    'sandbox_collection_ocp_apim_sub_key'=>'8267b296fbd34901bb835e109836bbda',
+    'sandbox_collection_ocp_apim_sub_key'=>'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', //change this to your collection  Ocp-Apim-Subscription-Key -- required 
     'sandbox_collection_token_url'=>'https://sandbox.momodeveloper.mtn.com/collection/token/',
 
     
@@ -78,11 +78,10 @@ return [
     */
  
     'collection_transaction_url'=> 'https://ericssonbasicapi1.azure-api.net/collection/v1_0/requesttopay',
-    'collection_call_back_url'=>'https://joballo.com',
+    'collection_call_back_url'=>'', // change this to your collection production call back url -- required
 
     'sandbox_collection_transaction_url' =>'https://sandbox.momodeveloper.mtn.com/collection/v1_0/requesttopay',
-    'sandbox_collection_call_back_url'=>'',
-
+    'sandbox_collection_call_back_url'=>'', // change this to your collection sandbox call back url 
     /*
     |--------------------------------------------------------------------------
     | collection api transaction status (requesttopay/{referenceid}) endpoint configuration 
@@ -143,11 +142,11 @@ return [
     |   sandbox_disbursement_api_key      - disbursement api key for sandbox 
     */
 
-    'disbursement_user_id' => '0bad5d1d-f042-4a3c-8147-0bfe019251cf', //change this to your disbursement user
-    'disbursement_api_key' => 'd5d8fda3a15142a4a0957427d84f715b', //change this to your disbursement api key
+    'disbursement_user_id' => 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx', //change this to your disbursement user -- required
+    'disbursement_api_key' => 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', //change this to your disbursement api key -- required
 
-    'sandbox_disbursement_user_id' => '26330c05-250a-498f-b22d-903487b6921c', //change this to your sandbox  disbursement user
-    'sandbox_disbursement_api_key'=> '7f93a98bbd6b46f5b54b9cf513173434', //change this to your sandbox disbursement api key
+    'sandbox_disbursement_user_id' => 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx', //change this to your sandbox  disbursement user -- required
+    'sandbox_disbursement_api_key'=> 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', //change this to your sandbox disbursement api key -- required
 
 
     /*
@@ -162,10 +161,10 @@ return [
     |   sandbox_disbursement_token_url        - disbursement token url for sandbox 
     */
 
-    'disbursement_ocp_apim_sub_key'=> '8489a030eb8c436e849f63667c9492dc', //change this to your disbursement production  Ocp-Apim-Subscription-Key 
+    'disbursement_ocp_apim_sub_key'=> 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', //change this to your disbursement Ocp-Apim-Subscription-Key  -- required
     'disbursement_token_url'=> 'https://ericssonbasicapi1.azure-api.net/disbursement/token/',
 
-    'sandbox_disbursement_ocp_apim_sub_key'=> '8399f29854944b569f83b9238f055afe', //change this to your disbursement sandbox  Ocp-Apim-Subscription-Key 
+    'sandbox_disbursement_ocp_apim_sub_key'=> 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', //change this to your disbursement Ocp-Apim-Subscription-Key -- required
     'sandbox_disbursement_token_url'=> 'https://sandbox.momodeveloper.mtn.com/disbursement/token/',
 
     /*
@@ -181,10 +180,10 @@ return [
     */
 
     'disbursement_transaction_url'=> 'https://ericssonbasicapi1.azure-api.net/disbursement/v1_0/transfer',
-    'disbursement_call_back_url'=>'https://joballo.com',
+    'disbursement_call_back_url'=>'', // change this to your disbursement production call back url -- required
 
     'sandbox_disbursement_transaction_url' =>'https://sandbox.momodeveloper.mtn.com/disbursement/v1_0/transfer',
-    'sandbox_disbursement_call_back_url'=>'',
+    'sandbox_disbursement_call_back_url'=>'', // change this to your disbursement sandbox call back url 
 
     /*
     |--------------------------------------------------------------------------
@@ -247,11 +246,11 @@ return [
     |   sandbox_remittance_api_key      - remittance api key for sandbox 
     */
 
-    'remittance_user_id' => '0bad5d1d-f042-4a3c-8147-0bfe019251cf', //change this to your remittance user
-    'remittance_api_key' => 'd5d8fda3a15142a4a0957427d84f715b', //change this to your remittance api key
+    'remittance_user_id' => 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx', //change this to your remittance user -- required
+    'remittance_api_key' => 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', //change this to your remittance api key -- required
 
-    'sandbox_remittance_user_id' => 'c50d30ab-c5dd-487a-bdc0-ab1235ba5995', //change this to your sandbox  remittance user
-    'sandbox_remittance_api_key'=> '66de01dde86d4abb97302e6b0b8de337', //change this to your sandbox remittance api key
+    'sandbox_remittance_user_id' => 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx', //change this to your sandbox  remittance user -- required
+    'sandbox_remittance_api_key'=> 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', //change this to your sandbox remittance api key -- required
 
 
     /*
@@ -266,10 +265,10 @@ return [
     |   sandbox_remittance_token_url        - remittance token url for sandbox 
     */
 
-    'remittance_ocp_apim_sub_key'=> '8489a030eb8c436e849f63667c9492dc', //change this to your remittance production  Ocp-Apim-Subscription-Key -- make sure it has a value
+    'remittance_ocp_apim_sub_key'=> 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', //change this to your remittance  Ocp-Apim-Subscription-Key -- required
     'remittance_token_url'=> 'https://ericssonbasicapi1.azure-api.net/remittance/token/',
 
-    'sandbox_remittance_ocp_apim_sub_key'=> '8399f29854944b569f83b9238f055afe', //change this to your remittance sandbox  Ocp-Apim-Subscription-Key -- make sure it has a value
+    'sandbox_remittance_ocp_apim_sub_key'=> 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', //change this to your remittance Ocp-Apim-Subscription-Key -- required
     'sandbox_remittance_token_url'=> 'https://sandbox.momodeveloper.mtn.com/remittance/token/',
 
     /*
@@ -285,10 +284,10 @@ return [
     */
 
     'remittance_transaction_url'=> 'https://ericssonbasicapi1.azure-api.net/remittance/v1_0/transfer',
-    'remittance_call_back_url'=>'https://joballo.com', // change this to your remittance production call back url -- make it's not blank
+    'remittance_call_back_url'=>'', // change this to your remittance production call back url -- required
 
     'sandbox_remittance_transaction_url' =>'https://sandbox.momodeveloper.mtn.com/remittance/v1_0/transfer',
-    'sandbox_remittance_call_back_url'=>'', // change this to your remittance sandbox call back url -- make it's not blank
+    'sandbox_remittance_call_back_url'=>'', // change this to your remittance sandbox call back url 
 
     /*
     |--------------------------------------------------------------------------
