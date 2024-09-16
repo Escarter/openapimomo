@@ -7,7 +7,7 @@
         "name": "Mbutuh Escarter Brieno",
         "email": "brienom@gmail.com"
     }],
-    "minimum-stability": "0.1",
+    "minimum-stability": "stable",
     "require": {},
     "extra": {
         "laravel": {
