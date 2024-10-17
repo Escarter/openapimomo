@@ -12,7 +12,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Escarter\\Openapimomo\\OpenapiMoMoServiceProvider"
+                "Escarter\\Openapimomo\\OpenapimomoServiceProvider"
             ]
         }
     },
