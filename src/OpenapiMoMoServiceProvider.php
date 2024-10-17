@@ -1,6 +1,6 @@
 <?php
 
-namespace Escarter\Openapimomo;
+namespace Escarter\OpenapiMoMo;
 
 use Illuminate\Support\ServiceProvider;
 
