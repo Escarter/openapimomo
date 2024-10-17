@@ -1,13 +1,13 @@
 <?php
 
-namespace Escarter\OpenapiMoMo;
+namespace Escarter\Openapimomo;
 
 use GuzzleHttp\Client;
 use Illuminate\Support\Str;
 use GuzzleHttp\Exception\ClientException;
 use GuzzleHttp\Exception\RequestException;
 
-class OpenapiMoMo
+class Openapimomo
 {
     public function sandboxApiUserandKey(string $reference_id, string $ocp_apim_sub_key)
     {

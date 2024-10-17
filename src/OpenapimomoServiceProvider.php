@@ -1,10 +1,10 @@
 <?php
 
-namespace Escarter\OpenapiMoMo;
+namespace Escarter\Openapimomo;
 
 use Illuminate\Support\ServiceProvider;
 
-class OpenapiMoMoServiceProvider extends ServiceProvider
+class OpenapimomoServiceProvider extends ServiceProvider
 {
     /**
      * Register services.
@@ -14,8 +14,8 @@ class OpenapiMoMoServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->bind(
-            'OpenapiMoMo', function () {
-                return new OpenapiMoMo();
+            'Openapimomo', function () {
+                return new Openapimomo();
             }
         );
     }
